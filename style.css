@@ -5,6 +5,13 @@ body {
 }
 
 
+.logo {
+  font-size: 160%;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
