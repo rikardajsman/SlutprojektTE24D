@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4f46e5, #69a498);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-site {
+    background: white;
+    padding: 40px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(115, 221, 250, 0.2);
+    text-align: center;
+}
+
+.login-site h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-site input[type="text"],
+.login-site input[type="email"],
+.login-site input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.login-site input:focus {
+    border-color: #6d6aaa;
+    box-shadow: 0 0 5px rgba(122, 169, 131, 0.4);
+}
+
+.login-site input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-site label {
+    font-size: 13px;
+    color: #555;
+}
+
+
+.login-site button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background: #46e59b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-site button:hover {
+    background: cadetblue;
+    transform: translateY(-1px);
+}
+
+/* Small responsive touch */
+@media (max-width: 400px) {
+    .login-site {
+        width: 90%;
+        padding: 25px;
+    }
+}

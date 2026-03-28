@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div class="login-site">
         <h1>Log In</h1>
-        <form action="">
-
+        <form action="login.html" method="post">
+            <div class="input-group">
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me in the future!</label>
+            <button type = "submit">Log In</button>
         </form>
 
     </div>
