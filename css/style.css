@@ -40,7 +40,7 @@ nav a:hover {
   background: linear-gradient(to right, #7ad5da, #4875c4);
   color: white;
   text-align: center;
-  padding: 15% 25%;
+  padding: 12% 25%;
 }
 .landing-page-content h1 {
   font-size: 350%;
@@ -49,6 +49,7 @@ nav a:hover {
 .landing-page-content p {
   font-size: 150%;
   margin-bottom: 10%;
+  background-color: rgb(62, 125, 62)green;
 }
 .hero {
   background: linear-gradient(to right, #44721e, #2a5298);
@@ -149,9 +150,12 @@ nav a:hover {
 .hero-button:hover {
   color :rgb(26, 88, 143);
 }
+.container {
+  width: 5%;
+}
 .dog-image {
   width: 10%;
-  margin-top: 40%;
+  height: auto;
 }
 .features {
   display: flex;

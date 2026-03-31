@@ -41,8 +41,54 @@ p {
 .hero-button:hover {
   background-color: #f0f0f0;
 }
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #333;
+}
 
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s ease;
+  box-sizing: border-box;
+}
 
+input:focus,
+textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Optional: if you add a submit button later */
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #3b78c2;
+}
 #contact {
   max-width: 800px;
   margin: 40px auto;
