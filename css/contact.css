@@ -44,6 +44,7 @@ p {
 .hero-button:hover {
   background-color: #f0f0f0;
 }
+/* Hela kontaktformuläret */
 label {
   display: block;
   margin-top: 12px;
@@ -74,10 +75,10 @@ textarea {
   height: 120px;
   resize: vertical;
 }
-/* En knapp kommer att läggas till snart*/
+
 button {
   margin-top: 15px;
-  width: 100%;
+  width: 50%;
   padding: 10px;
   background: #4a90e2;
   color: white;

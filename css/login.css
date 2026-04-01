@@ -8,7 +8,7 @@ body {
     align-items: center;
 }
 
-
+/* Login/Signup formulär*/
 .login-site {
     background: white;
     padding: 40px;
@@ -67,7 +67,6 @@ body {
     transform: translateY(-1px);
 }
 
-/* Small responsive touch */
 @media (max-width: 400px) {
     .login-site {
         width: 90%;
