@@ -200,3 +200,24 @@ td {
 table, h1 {
   text-align: center;
 }
+
+.inteview h1 {
+  text-align: center;
+  margin: 5%;
+}
+.interviews {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.interview {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgb(17, 17, 17);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
