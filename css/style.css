@@ -215,9 +215,17 @@ table, h1 {
 .interview {
   background: rgb(255, 255, 255);
   padding: 10px;
-  width: 150px;
+  width: 300px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgb(17, 17, 17);
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.container {
+  width: 1000px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
