@@ -205,13 +205,7 @@ table, h1 {
   text-align: center;
   margin: 5%;
 }
-.interviews {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  padding: 40px;
-  flex-wrap: wrap;
-}
+
 .interview {
   background: rgb(255, 255, 255);
   padding: 10px;
@@ -220,6 +214,7 @@ table, h1 {
   box-shadow: 0 4px 10px rgb(17, 17, 17);
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex: 0 0 auto;
 }
 .container {
   width: 1000px;
@@ -228,4 +223,37 @@ table, h1 {
   .container {
     width: 100%;
   }
+}
+
+.interviews {
+  display: flex;
+  overflow: hidden;
+  animation: slide 33s infinite;
+  gap: 10px;
+}
+
+@keyframes slide {
+
+  /* Alla kort */
+  0%   { transform: translateX(0); }
+  8%   { transform: translateX(0); }
+  10%  { transform: translateX(-310px); }
+  18%  { transform: translateX(-310px); }
+  20%  { transform: translateX(-620px); }
+  28%  { transform: translateX(-620px); }
+  30%  { transform: translateX(-930px); }
+  38%  { transform: translateX(-930px); }
+  40%  { transform: translateX(-1240px); }
+  48%  { transform: translateX(-1240px); }
+  50%  { transform: translateX(-1550px); }
+  58%  { transform: translateX(-1550px); }
+  60%  { transform: translateX(-1860px); }
+  68%  { transform: translateX(-1860px); }
+  70%  { transform: translateX(-2170px); }
+  78%  { transform: translateX(-2170px); }
+  80%  { transform: translateX(-2480px); }
+  88%  { transform: translateX(-2480px); }
+  90%  { transform: translateX(-2790px); }
+  96%  { transform: translateX(-2790px); }
+  100% { transform: translateX(0); }
 }
