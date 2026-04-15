@@ -154,7 +154,7 @@ nav a:hover {
   width: 5%;
 }
 .dog-image {
-  width: 10%;
+  width: 5%;
   height: auto;
 }
 .features {
@@ -256,4 +256,20 @@ table, h1 {
   90%  { transform: translateX(-2790px); }
   96%  { transform: translateX(-2790px); }
   100% { transform: translateX(0); }
+}
+
+.last-section {
+  background: linear-gradient(to right, #ce8612, #4875c4);
+  color: white;
+  padding: 70px 20px;
+  min-height: 80vh;
+}
+.last-section h1 {
+ font-size: 48px;
+ margin: 0;
+}
+.last-section p {
+  font-size: 20px;
+  margin-top: 12px;
+  text-align: center;
 }
