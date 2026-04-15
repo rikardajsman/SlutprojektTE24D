@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<link rel="stylesheet" href="css/contact.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=mail" />
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<style>
+#map {
+  height: 300px;
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>Contact Us</h1>
+    <p>We are here to help you. Reach out anytime.</p>
+    <a href="#contact" class="hero-button">Get in Touch</a>
+  </div>
+</header>
+
+<!-- Kontakt -->
+<section id="contact">
+
+<h1>Contact Options</h1>
+<p>We know that sometimes you need to contact us for help.</p>
+
+<h4>Contact information</h4>
+<p>Office: Åva Gymnasium, Stockholm</p>
+<p>Mail: profitlion@gmail.com</p>
+<p>Please use our contact form for the best service.</p>
+
+<div>
+  <span class="material-symbols-outlined">mail</span>
+</div>
+
+<!-- Contact Form -->
+ <form>
+  <label for="email">E-mail:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="subject">Subject:</label><br>
+  <input type="text" id="subject" name="subject" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" required></textarea><br><br>
+
+  <form action="/button" method="POST">
+    <input type="submit" value="Submit">
+  </form>
+ </form>
+
+</section>
+
+<h3 style="text-align:center;">Our Location</h3>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+var map = L.map('map').setView([59.3610, 17.9712], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+L.marker([59.44032, 18.06267]).addTo(map)
+  .bindPopup('My Business Location')
+  .openPopup();
+</script>
+
+</body>
+</html>
