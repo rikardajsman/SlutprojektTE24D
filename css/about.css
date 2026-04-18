@@ -1,5 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.logo {
+  font-size: 160%;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1e5089;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(203, 206, 206);
 }
 h1 {
   text-align: center;
@@ -7,4 +46,33 @@ h1 {
 }
 li {
   margin: 10px 0;
+}
+
+.services-list {
+  background: rgb(186, 176, 61);
+  padding: 10px;
+  width: 290px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgb(3, 3, 3);
+  text-align: left;
+}
+.future {
+  background: rgb(124, 110, 203);
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgb(3, 3, 3);
+  text-align: left;
+}
+
+.plans {
+  background: rgb(135, 193, 78);
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgb(3, 3, 3);
+  text-align: left; 
 }
