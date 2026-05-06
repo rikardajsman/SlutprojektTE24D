@@ -1,4 +1,3 @@
-/* Javascript för att logga in under konstruktion */
 document.getElementById("loginForm").addEventListener("click", function() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
