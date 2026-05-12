@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 20px 40px;
   background-color: #1e5089;
 }
 
@@ -37,10 +37,10 @@ nav a:hover {
 }
 
 .landing-page {
-  background: linear-gradient(to right, #7ad5da, #4875c4);
-  color: white;
+  background-image: url('nightsky.jpg');
   text-align: center;
   padding: 12% 25%;
+  color: white;
 }
 .landing-page-content h1 {
   font-size: 350%;
